@@ -1,0 +1,13 @@
+body{font-family:Arial,sans-serif;margin:0;}
+.topo{background:#121622;padding:.5rem 0;color:#fff;}
+.nav__list{list-style:none;display:flex;gap:1rem;margin:0;padding:0;}
+.secao{padding:2rem 0;}
+.sobre__grid{display:grid;gap:1rem;}
+.oficinas__grid{display:grid;gap:1rem;}
+.oficina{background:#121622;color:#fff;padding:1rem;border-radius:8px;}
+.convidados__lista{display:flex;gap:1rem;flex-wrap:wrap;}
+.card-convidado{background:#121622;color:#fff;padding:1rem;border-radius:8px;display:flex;gap:1rem;align-items:center;}
+.card-convidado__foto{width:72px;height:72px;border-radius:50%;}
+.form{display:grid;gap:1rem;background:#121622;padding:1rem;border-radius:8px;color:#fff;}
+.btn{padding:.5rem 1rem;background:#6f9cff;border:0;border-radius:999px;cursor:pointer;}
+.rodape{background:#121622;color:#fff;padding:1rem;text-align:center;}
