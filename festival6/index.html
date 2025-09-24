@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Festival de Cultura Digital</title>
+  <meta name="description" content="Festival educativo que une arte digital, tecnologia e os fundamentos do desenvolvimento web moderno." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topo">
+    <div class="container topo__wrap">
+      <div class="brand">
+        <img src="img/logo-festival.png" alt="Logotipo do Festival de Cultura Digital" class="brand__logo" />
+        <span class="brand__name">Festival de Cultura Digital</span>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#oficinas">Oficinas</a></li>
+          <li><a href="#convidados">Convidados</a></li>
+          <li><a href="#inscricao">Inscreva-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="sobre" class="secao secao--sobre">
+      <div class="container sobre__grid">
+        <div class="sobre__texto">
+          <h1>Sobre o Festival</h1>
+          <p>
+            O <strong>Festival de Cultura Digital</strong> reúne estudantes e entusiastas para explorar os pilares do 
+            <em>desenvolvimento web moderno</em>. Da história da internet às tecnologias atuais, o evento proporciona
+            um mergulho completo na cultura digital.
+          </p>
+          <p>
+            Durante três dias, os participantes conhecerão temas como <strong>História da Web, HTML5, CSS3, Flexbox, Grid e Tailwind CSS</strong>,
+            aplicando conceitos em oficinas práticas e acessíveis.
+          </p>
+          <p>
+            O objetivo é unir aprendizado e inovação, preparando o público para criar experiências digitais modernas, responsivas e acessíveis.
+          </p>
+        </div>
+        <figure class="sobre__media">
+          <img src="img/sobre.jpg" alt="Participantes aprendendo sobre desenvolvimento web" />
+          <figcaption>Explorando HTML, CSS e as bases da web no Festival.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="oficinas" class="secao secao--oficinas">
+      <div class="container">
+        <header class="secao__cabecalho">
+          <h2>Oficinas</h2>
+          <p>Módulos de aprendizado baseados nos conteúdos estudados em sala.</p>
+        </header>
+
+        <div class="oficinas__grid">
+          <article class="oficina">
+            <h3>História e Evolução da Web</h3>
+            <p><strong>Área:</strong> Fundamentos da Web</p>
+            <p><strong>Faixa etária:</strong> Livre</p>
+          </article>
+          <article class="oficina">
+            <h3>HTML5: Estrutura e Semântica</h3>
+            <p><strong>Área:</strong> Desenvolvimento Web</p>
+            <p><strong>Faixa etária:</strong> 12+</p>
+          </article>
+          <article class="oficina">
+            <h3>HTML5: Formulários e Multimídia</h3>
+            <p><strong>Área:</strong> Interatividade</p>
+            <p><strong>Faixa etária:</strong> 12+</p>
+          </article>
+          <article class="oficina">
+            <h3>CSS3: Fundamentos e Layout Moderno</h3>
+            <p><strong>Área:</strong> Estilização</p>
+            <p><strong>Faixa etária:</strong> 14+</p>
+          </article>
+          <article class="oficina">
+            <h3>CSS3: Flexbox e Grid Layout</h3>
+            <p><strong>Área:</strong> Layout Responsivo</p>
+            <p><strong>Faixa etária:</strong> 14+</p>
+          </article>
+          <article class="oficina">
+            <h3>Tailwind CSS: Utility-first e Responsividade</h3>
+            <p><strong>Área:</strong> Frameworks Modernos</p>
+            <p><strong>Faixa etária:</strong> 16+</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="convidados" class="secao secao--convidados">
+      <div class="container">
+        <header class="secao__cabecalho">
+          <h2>Convidados</h2>
+          <p>Profissionais fictícios que representam áreas-chave do desenvolvimento web.</p>
+        </header>
+        <div class="convidados__lista">
+          <article class="card-convidado">
+            <img src="img/convidado1.jpg" alt="Foto de Ana Souza" class="card-convidado__foto" />
+            <div>
+              <h3>Ana Souza</h3>
+              <p>Especialista em HTML5 e Acessibilidade</p>
+              <blockquote>“Semântica e acessibilidade são a base da web inclusiva.”</blockquote>
+            </div>
+          </article>
+          <article class="card-convidado">
+            <img src="img/convidado2.jpg" alt="Foto de Bruno Almeida" class="card-convidado__foto" />
+            <div>
+              <h3>Bruno Almeida</h3>
+              <p>Designer CSS3 e Animações</p>
+              <blockquote>“O design ganha vida com cores, movimentos e responsividade.”</blockquote>
+            </div>
+          </article>
+          <article class="card-convidado">
+            <img src="img/convidado3.jpg" alt="Foto de Carla Ribeiro" class="card-convidado__foto" />
+            <div>
+              <h3>Carla Ribeiro</h3>
+              <p>Desenvolvedora Frontend com Tailwind CSS</p>
+              <blockquote>“Agilidade e consistência são o futuro do design system.”</blockquote>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="inscricao" class="secao secao--inscricao">
+      <div class="container">
+        <header class="secao__cabecalho">
+          <h2>Inscreva-se</h2>
+          <p>Escolha seu módulo favorito e participe do festival.</p>
+        </header>
+        <form class="form">
+          <div class="form__grupo">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+          <div class="form__grupo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form__grupo">
+            <label for="oficina">Oficina de interesse</label>
+            <select id="oficina" name="oficina" required>
+              <option disabled selected>Selecione</option>
+              <option>História e Evolução da Web</option>
+              <option>HTML5: Estrutura e Semântica</option>
+              <option>HTML5: Formulários e Multimídia</option>
+              <option>CSS3: Fundamentos e Layout Moderno</option>
+              <option>CSS3: Flexbox e Grid Layout</option>
+              <option>Tailwind CSS: Utility-first e Responsividade</option>
+            </select>
+          </div>
+          <fieldset class="form__grupo">
+            <legend>Turno preferido</legend>
+            <label><input type="radio" name="turno" value="manha" /> Manhã</label>
+            <label><input type="radio" name="turno" value="tarde" /> Tarde</label>
+            <label><input type="radio" name="turno" value="noite" /> Noite</label>
+          </fieldset>
+          <div class="form__grupo">
+            <label for="comentarios">Comentários adicionais</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+          </div>
+          <div class="form__acoes">
+            <button type="submit" class="btn">Enviar</button>
+            <button type="reset" class="btn btn--secundario">Limpar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container rodape__grid">
+      <div>
+        <h3>Contato</h3>
+        <p>Email: culturalfestival88@gmail.com</p>
+      </div>
+      <div>
+        <h3>Redes Sociais</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/festivalculturaldigital" target="_blank">Instagram</a></li>
+          <li><a href="https://www.youtube.com/@FESTIVALCULTURALDIGITAL" target="_blank">YouTube</a></li>
+          <li><a href="https://www.tiktok.com/@festivalculturaldigital" target="_blank">TikTok</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Autores</h3>
+        <p>© 2025 — Carlos Eduardo Brandão Benedito, Pedro Henrique Sousa Cruz, Dalessandro Jose Coelho Da Silva</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

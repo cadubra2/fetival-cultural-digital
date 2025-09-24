@@ -1,0 +1,23 @@
+body {font-family: Arial, sans-serif; margin:0; background:#0b0d12; color:#e6e9f2;}
+.container{width:min(100% - 2rem,1100px);margin:auto;}
+.topo{background:#121622;position:sticky;top:0;padding:.5rem 0;}
+.topo__wrap{display:flex;justify-content:space-between;align-items:center;}
+.brand{display:flex;align-items:center;gap:.5rem;}
+.brand__logo{width:40px;height:40px;border-radius:50%;}
+.nav__list{display:flex;gap:1rem;list-style:none;margin:0;padding:0;}
+.nav__list a{color:#e6e9f2;text-decoration:none;}
+.secao{padding:2rem 0;}
+.sobre__grid{display:grid;gap:1rem;}
+.oficinas__grid{display:grid;gap:1rem;}
+.oficina{background:#121622;padding:1rem;border-radius:8px;}
+.convidados__lista{display:flex;flex-wrap:wrap;gap:1rem;}
+.card-convidado{display:flex;gap:1rem;align-items:center;background:#121622;padding:1rem;border-radius:8px;flex:1 1 280px;}
+.card-convidado__foto{width:72px;height:72px;border-radius:50%;object-fit:cover;}
+.form{display:grid;gap:1rem;background:#121622;padding:1rem;border-radius:8px;}
+.form__acoes{display:flex;gap:1rem;}
+.btn{padding:.5rem 1rem;border-radius:999px;border:0;cursor:pointer;background:#6f9cff;color:#000;font-weight:bold;}
+.btn--secundario{background:#333;color:#fff;}
+.rodape{background:#121622;padding:2rem 0;}
+.rodape__grid{display:grid;gap:1rem;}
+@media(min-width:640px){.sobre__grid{grid-template-columns:1fr 1fr;} .oficinas__grid{grid-template-columns:repeat(2,1fr);} .rodape__grid{grid-template-columns:repeat(3,1fr);}}
+@media(min-width:1024px){.oficinas__grid{grid-template-columns:repeat(3,1fr);}}
