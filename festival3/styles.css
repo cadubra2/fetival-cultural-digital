@@ -1,0 +1,7 @@
+body{font-family:Arial,sans-serif;margin:0;}
+.topo{background:#121622;padding:.5rem 0;color:#fff;}
+.nav__list{list-style:none;display:flex;gap:1rem;margin:0;padding:0;}
+.secao{padding:2rem 0;}
+.sobre__grid{display:grid;gap:1rem;}
+.oficinas__grid{display:grid;gap:1rem;}
+.oficina{background:#121622;color:#fff;padding:1rem;border-radius:8px;}
